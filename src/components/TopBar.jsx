@@ -1,10 +1,11 @@
 import React from 'react'
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
 
 function TopBar() {
   return (
     <div class="bg-[#1d2434] text-[#eeeeee] h-[60px]">
       <div class="w-[80%] m-auto">
-        <div class="flex">
+        <div class="flex justify-between">
           <div class="flex justify-center items-center">
             <div class="flex flex-col justify-center items-center text-center border-x-2 border-solid border-[#ffffff26] p-1.5">
               <h2 class="text-base font-semibold">8:00 - 9:00</h2>
@@ -16,8 +17,27 @@ function TopBar() {
             </div>
           </div>
           {/* the second flex part */}
-          <div>
-
+          <div class="flex justify-center items-center">
+            <div class="flex flex-col justify-center items-center border-x-2 border-solid border-[#ffffff26] p-4">
+              <a href='#'>
+                <FaTwitter size={25}/>
+              </a>
+            </div>
+            <div class="flex flex-col justify-center items-center border-r-2 border-solid border-[#ffffff26] p-4">
+              <a href='#'>
+                <FaFacebook size={25}/>
+              </a>
+            </div>
+            <div class="flex flex-col justify-center items-center border-r-2 border-solid border-[#ffffff26] p-4">
+              <a href='#'>
+                <FaLinkedin size={25}/>
+              </a>
+            </div>
+            <div class="flex flex-col justify-center items-center border-r-2 border-solid border-[#ffffff26] p-4">
+              <a href='#'>
+                <FaInstagram size={25}/>
+              </a>
+            </div>
           </div>
         </div>
       </div>
