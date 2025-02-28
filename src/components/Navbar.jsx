@@ -1,9 +1,31 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+
+
 
 function Navbar() {
+
+  const [scrolled, setScrolled] = useState(false);
+
+  const handleScroll = () => {
+    // Check if the window has been scrolled down
+    const offset = window.scrollY;
+    setScrolled(offset > 0);
+    console.log("Scrolled: ", offset > 0);
+  };
+
+  useEffect(() => {
+    // Add scroll event listener
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup function to remove the listener on unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);  
+
   return (
-    <div class="bg-[#ffffff1a] h-[70px] absolute z-10 w-[100%] text-[#ffffff]">
-      <div class="w-[80%] m-auto p-5">
+    <div className={`h-[70px] w-full text-white animate-pulse ${scrolled ? 'bg-black fixed top-0 left-0 z-10' : 'bg-[#ffffff1a] absolute'}`}>
+      <div class="w-[90%] m-auto py-5 px-[75px]">
         <div class="flex justify-between items-center">
           {/* first flex */}
           <div> 

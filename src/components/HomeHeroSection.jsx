@@ -12,11 +12,11 @@ function HomeHeroSection() {
         <section>
           <Navbar/>
         </section>
-        <section class="w-[80%] m-auto">
-          <div>
+        <section class="w-[90%] m-auto">
+          <div class="w-full">
             <div  class="flex justify-between flex-1">
               {/* first flex */}
-              <div class="flex flex-col justify-center items-center w-3/5">
+              <div class="flex flex-col justify-center items-center w-3/5 pl-[75px]">
                 <div>
                   <h1 class="text-[#1d2434] text-4xl font-bold pb-4">
                     Welcome to Jazzy Salon
@@ -28,7 +28,7 @@ function HomeHeroSection() {
               </div>
               {/* second flex */}
               <div class="w-2/5">
-                <img src={hero} alt='heropic' class="h-[550px]"/>
+                <img src={hero} alt='heropic' class="h-[550px] w-full"/>
               </div>
             </div>
           </div>

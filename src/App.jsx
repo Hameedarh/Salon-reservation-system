@@ -11,6 +11,9 @@ function App() {
     <>
       <div>
         <Home/>
+        <div class="bg-blue h-screen">
+
+        </div>
       </div>
     </>
   )
