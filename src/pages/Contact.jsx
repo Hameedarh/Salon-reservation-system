@@ -8,7 +8,7 @@ function Contact() {
     const [query, setQuery] = useState({
       name: "",
       email: "",
-      platform: ""
+      subject: ""
     });
   
     const handleChange = () => (e) => {
