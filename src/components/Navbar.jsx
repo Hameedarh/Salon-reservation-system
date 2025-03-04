@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
+import { Link } from "react-router-dom"
 
 
 
@@ -24,7 +25,7 @@ function Navbar() {
   }, []);  
 
   return (
-    <div className={`h-[70px] w-full text-white animate-pulse ${scrolled ? 'bg-black fixed top-0 left-0 z-10' : 'bg-[#ffffff1a] absolute'}`}>
+    <div className={`h-[70px] w-full text-white animate-pulse ${scrolled ? 'bg-black fixed top-0 left-0 z-20' : 'bg-[#ffffff1a] absolute'}`}>
       <div class="w-[90%] m-auto py-5 px-[75px]">
         <div class="flex justify-between items-center">
           {/* first flex */}
@@ -48,11 +49,11 @@ function Navbar() {
               <p>SERVICES</p>
               </a>
             </div>
-            <div>
-              <a href="#">
-              <p>CONTACT</p>
-              </a>
-            </div>
+            <Link to='/contact'>
+              <div>
+                <p>CONTACT</p>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
