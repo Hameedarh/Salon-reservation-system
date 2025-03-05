@@ -33,12 +33,15 @@ function Navbar() {
             <h2>Hello</h2>
           </div>
           {/* second flex */}
+        
           <div class="flex justify-between items-center gap-10">
-            <div>
-              <a href="#">
-              <p>HOME</p>
-              </a>
-            </div>
+            <Link to='/'>
+              <div>
+                <a href="#">
+                <p>HOME</p>
+                </a>
+              </div> 
+            </Link>
             <div>
               <a href="#">
               <p>ABOUT</p>
