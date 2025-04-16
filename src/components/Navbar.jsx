@@ -29,9 +29,11 @@ function Navbar() {
       <div class="w-[90%] m-auto py-5 px-[75px]">
         <div class="flex justify-between items-center">
           {/* first flex */}
-          <div> 
-            <h2>Hello</h2>
-          </div>
+          <Link to='/'>
+            <div> 
+              <h2 class="font-bold text-3xl">Jiggy Salon</h2>
+            </div>
+          </Link>
           {/* second flex */}
         
           <div class="flex justify-between items-center gap-10">

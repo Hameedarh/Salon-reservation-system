@@ -1,5 +1,6 @@
 import React from 'react'
 import hero from "../assets/img/hero.png"
+import { Link } from "react-router-dom"
 
 function HomeHeroSection() {
   return (
@@ -16,13 +17,13 @@ function HomeHeroSection() {
                 <p class="text-xl w-4/6 leading-normal">
                     Lorem ipsum dolor sit amet elit. Phasell nec pretum mi. Curabi ornare velit non. Aliqua metus tortor auctor quis sem.
                 </p>
-                <div class="mt-10">
-                  <a href="#">
-                    <button class="px-[30px] py-[15px] border-2 border-solid border-[#1d2434] bg-[none]">
+                <Link to='/contact'>
+                  <div class="mt-10">
+                    <button class="px-[30px] py-[15px] border-2 border-solid border-[#1d2434] bg-[none] hover:bg-[#1d2434] hover:text-[#D5B981]">
                       Book an Appointment
                     </button>
-                  </a>
-                </div>
+                  </div>
+                </Link>
               </div>
             </div>
             {/* second flex */}
