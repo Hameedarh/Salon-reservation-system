@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa"
 
 function TopBar() {
   return (
@@ -25,12 +25,12 @@ function TopBar() {
             </div>
             <div class="flex flex-col justify-center items-center border-r-2 border-solid border-[#ffffff26] p-4">
               <a href='#'>
-                <FaFacebook size={25}/>
+                <FaFacebookF size={25}/>
               </a>
             </div>
             <div class="flex flex-col justify-center items-center border-r-2 border-solid border-[#ffffff26] p-4">
               <a href='#'>
-                <FaLinkedin size={25}/>
+                <FaLinkedinIn size={25}/>
               </a>
             </div>
             <div class="flex flex-col justify-center items-center border-r-2 border-solid border-[#ffffff26] p-4">
