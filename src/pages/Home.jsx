@@ -4,6 +4,7 @@ import HomeSecondSection from '../components/HomeSecondSection'
 import HomeThirdSection from '../components/HomeThirdSection'
 import ContactForm from '../components/ContactForm'
 import Footer from '../components/Footer'
+import HomeSwiperSection from '../components/HomeSwiperSection'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
             <HomeSecondSection/>
             <HomeThirdSection/>
             <ContactForm/>
+            <HomeSwiperSection/>
             <Footer/>
         </div>
     </div>

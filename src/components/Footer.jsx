@@ -23,10 +23,10 @@ function Footer() {
                         </div>
                     </div>
                     <div class="flex gap-4 align-center text-[#D5B981]">
-                        <a href="#">
+                        <a href="https://twitter.com/">
                             <FaTwitter class="hover:text-[#797979]" size={20}/>
                         </a>
-                        <a href="#">
+                        <a href="https://www.facebook.com/">
                             <FaFacebookF class="hover:text-[#797979]" size={20}/>
                         </a>
                         <a href="#">
@@ -35,7 +35,7 @@ function Footer() {
                         <a href="#">
                             <FaInstagram class="hover:text-[#797979]" size={20}/>
                         </a>
-                        <a href="#">
+                        <a href="https://www.linkedin.com/">
                             <FaLinkedinIn class="hover:text-[#797979]" size={20}/>
                         </a>
                     </div>
