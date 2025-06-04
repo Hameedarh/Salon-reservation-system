@@ -7,14 +7,14 @@ function HomeHeroSection() {
     <div class="bg-[#D5B981] h-screen">
       <section class="w-[90%] m-auto">
         <div class="w-full">
-          <div  class="flex justify-between flex-1">
+          <div  class=" flex flex-col md:flex-row justify-between flex-1">
             {/* first flex */}
-            <div class="flex flex-col justify-center items-center w-3/5 pl-[75px]">
+            <div class="flex flex-col justify-center items-center md:items-start text-center md:text-left w-full md:w-3/5 pl-0 md:pl-[75px] mt-8 md:mt-0">
               <div>
-                <h1 class="text-[#1d2434] text-4xl font-bold pb-4">
+                <h1 class="text-[#1d2434] text-3xl md:text-4xl font-bold pb-4">
                   Welcome to Jiggy Salon
                 </h1>
-                <p class="text-xl w-4/6 leading-normal">
+                <p class="text-xl md:w-4/6 w-full leading-normal">
                     Lorem ipsum dolor sit amet elit. Phasell nec pretum mi. Curabi ornare velit non. Aliqua metus tortor auctor quis sem.
                 </p>
                 <Link to='/contact'>
@@ -27,7 +27,7 @@ function HomeHeroSection() {
               </div>
             </div>
             {/* second flex */}
-            <div class="w-2/5">
+            <div class="w-2/5 hidden md:block">
               <img src={hero} alt='heropic' class="h-[550px] w-full"/>
             </div>
           </div>

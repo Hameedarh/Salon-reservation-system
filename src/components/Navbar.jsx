@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-
-
+import { Menu, X } from 'lucide-react'; // Import hamburger and close icons
 
 function Navbar() {
 
-  const [scrolled, setScrolled] = useState(false);
+  const [scrolled, setScrolled] = useState(false);   // State to detect scroll
+  const [menuOpen, setMenuOpen] = useState(false);   // State to toggle mobile menu
 
   const handleScroll = () => {
     // Check if the window has been scrolled down
@@ -15,34 +15,35 @@ function Navbar() {
     console.log("Scrolled: ", offset > 0);
   };
 
+  // Add and clean up scroll listener
   useEffect(() => {
-    // Add scroll event listener
     window.addEventListener('scroll', handleScroll);
-
-    // Cleanup function to remove the listener on unmount
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);  
 
+  // Toggle mobile menu visibility
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
-    <div className={`h-[70px] w-full text-white animate-pulse ${scrolled ? 'bg-black fixed top-0 left-0 z-20' : 'bg-[#ffffff1a] absolute'}`}>
-      <div class="w-[90%] m-auto py-5 px-[75px]">
-        <div class="flex justify-between items-center">
-          {/* first flex */}
+    <div className={`h-[70px] w-full text-white animate-pulse ${scrolled ? 'bg-black fixed top-0 left-0 z-20' : 'bg-[#ffffff1a] absolute'} transition duration-300`}>
+      <div className="w-[90%] m-auto py-5 px-[75px]">
+        <div className="flex justify-between items-center">
+          {/* first flex - Logo */}
           <Link to='/'>
             <div> 
-              <h2 class="font-bold text-3xl">Jiggy Salon</h2>
+              <h2 className="font-bold text-3xl">Jiggy Salon</h2>
             </div>
           </Link>
-          {/* second flex */}
-        
-          <div class="flex justify-between items-center gap-10">
+
+          {/* second flex - Desktop menu */}
+          <div className="hidden lg:flex justify-between items-center gap-10">
             <Link to='/'>
               <div>
-                <a href="#">
                 <p>HOME</p>
-                </a>
               </div> 
             </Link>
             <div>
@@ -52,12 +53,12 @@ function Navbar() {
             </div>
             <div>
               <AnchorLink href="#services">
-              <p>SERVICES</p>
+                <p>SERVICES</p>
               </AnchorLink>
             </div>
             <div>
               <AnchorLink href="#blog">
-              <p>BLOG</p>
+                <p>BLOG</p>
               </AnchorLink>
             </div>
             <Link to='/contact'>
@@ -66,10 +67,38 @@ function Navbar() {
               </div>
             </Link>
           </div>
+
+          {/* Hamburger icon - only visible on small screens */}
+          <div className="lg:hidden">
+            <button onClick={toggleMenu}>
+              {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
+          </div>
         </div>
+
+        {/* Mobile menu - dropdown on small screens */}
+        {menuOpen && (
+          <div className="flex flex-col gap-4 mt-4 lg:hidden bg-black p-4 rounded-md">
+            <Link to='/' onClick={toggleMenu}>
+              <p>HOME</p>
+            </Link>
+            <AnchorLink href="#about" onClick={toggleMenu}>
+              <p>ABOUT</p>
+            </AnchorLink>
+            <AnchorLink href="#services" onClick={toggleMenu}>
+              <p>SERVICES</p>
+            </AnchorLink>
+            <AnchorLink href="#blog" onClick={toggleMenu}>
+              <p>BLOG</p>
+            </AnchorLink>
+            <Link to='/contact' onClick={toggleMenu}>
+              <p>CONTACT</p>
+            </Link>
+          </div>
+        )}
       </div>
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

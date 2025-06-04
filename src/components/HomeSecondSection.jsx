@@ -5,7 +5,7 @@ function HomeSecondSection() {
   return (
     <div id='about'>
         <div class="py-24">
-            <div class="w-[90%] m-auto flex justify-between px-[75px]">
+            <div class="w-[90%] m-auto flex flex-col md:flex-row justify-between px-[75px]">
                 <div class="basis-2/5">
                     <div class='relative'>
                         <div class="w-[385px] h-[466px] bg-[#1d2434]">
