@@ -11,7 +11,7 @@ function HomeHeroSection() {
             {/* first flex */}
             <div class="flex flex-col justify-center items-center md:items-start text-center md:text-left w-full md:w-3/5 pl-0 md:pl-[75px] mt-8 md:mt-0">
               <div>
-                <h1 class="text-[#1d2434] text-3xl md:text-4xl font-bold pb-4">
+                <h1 class=" pt-20 md:text-[#1d2434] text-3xl md:text-4xl font-bold pb-4">
                   Welcome to Jiggy Salon
                 </h1>
                 <p class="text-xl md:w-4/6 w-full leading-normal">

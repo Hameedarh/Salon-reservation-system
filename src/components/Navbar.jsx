@@ -80,19 +80,19 @@ function Navbar() {
         {menuOpen && (
           <div className="flex flex-col gap-4 mt-4 lg:hidden bg-black p-4 rounded-md">
             <Link to='/' onClick={toggleMenu}>
-              <p>HOME</p>
+              <p>Home</p>
             </Link>
             <AnchorLink href="#about" onClick={toggleMenu}>
-              <p>ABOUT</p>
+              <p>About</p>
             </AnchorLink>
             <AnchorLink href="#services" onClick={toggleMenu}>
-              <p>SERVICES</p>
+              <p>Services</p>
             </AnchorLink>
             <AnchorLink href="#blog" onClick={toggleMenu}>
-              <p>BLOG</p>
+              <p>Blog</p>
             </AnchorLink>
             <Link to='/contact' onClick={toggleMenu}>
-              <p>CONTACT</p>
+              <p>Contact</p>
             </Link>
           </div>
         )}

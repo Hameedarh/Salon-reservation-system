@@ -3,7 +3,7 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/f
 
 function TopBar() {
   return (
-    <div className="bg-[#1d2434] text-[#eeeeee] h-auto py-2">
+    <div className="hidden md:block bg-[#1d2434] text-[#eeeeee] h-auto py-2">
       <div className="w-[90%] md:w-[80%] m-auto">
         {/* Flex container with responsive direction and wrap */}
         <div className="flex flex-col md:flex-row justify-between gap-2">

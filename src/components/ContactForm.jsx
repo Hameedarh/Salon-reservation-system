@@ -14,7 +14,7 @@ function ContactForm() {
     <div>
         <div class="bg-[#1d2434]">
             <div class="w-[90%] m-auto flex justify-between px-[75px]">
-                <div class="basis-2/5">
+                <div class="basis-2/5 hidden md:block">
                     <img src={contact} alt='contact-pic' class="w-[500px] h-[470px]"/>
                 </div>
                 <div class="basis-3/5 px-12">
