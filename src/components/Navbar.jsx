@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 
 
@@ -45,14 +46,19 @@ function Navbar() {
               </div> 
             </Link>
             <div>
-              <a href="#">
-              <p>ABOUT</p>
-              </a>
+              <AnchorLink href='#about'>
+                <p>ABOUT</p>
+              </AnchorLink>
             </div>
             <div>
-              <a href="#">
+              <AnchorLink href="#services">
               <p>SERVICES</p>
-              </a>
+              </AnchorLink>
+            </div>
+            <div>
+              <AnchorLink href="#blog">
+              <p>BLOG</p>
+              </AnchorLink>
             </div>
             <Link to='/contact'>
               <div>

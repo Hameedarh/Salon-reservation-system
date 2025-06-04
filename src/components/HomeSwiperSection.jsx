@@ -3,7 +3,7 @@ import Slider from "../components/HomeSwiper";
 
 function HomeSwiperSection() {
   return (
-    <div>
+    <div id='blog'>
         <div class="py-10">
             <div class="w-[90%] m-auto px-[75px]">
                 <div class='text-center pb-16'>

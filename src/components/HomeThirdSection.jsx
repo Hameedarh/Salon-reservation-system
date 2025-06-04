@@ -5,7 +5,7 @@ import service3 from '../assets/img/service-3.jpg'
 
 function HomeThirdSection() {
   return (
-    <div>
+    <div id='services'>
         <div class="py-10">
             <div class="w-[90%] m-auto px-[75px]">
                 <div class='text-center pb-16'>

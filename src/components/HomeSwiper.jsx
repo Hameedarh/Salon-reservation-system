@@ -58,7 +58,7 @@ function HomeSwiper() {
                         <div class=''>
                             <div class="w-[350px] h-[504px] bg-[#1D24340A] relative">
                                 <img src={slide?.thumbnail} alt={slide?.title} />
-                                <div class='w-[320px] h-[233px] bg-[transparent] absolute top-4 left-4 border-solid border-[1px] border-[#ffffff] z-10'>
+                                <div class='w-[320px] h-[190px] bg-[transparent] absolute top-3 left-4 border-solid border-[1px] border-[#ffffff] z-10'>
     
                                 </div>
                                 <div class='text-center'>

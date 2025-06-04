@@ -3,7 +3,7 @@ import about from '../assets/img/about.jpg'
 
 function HomeSecondSection() {
   return (
-    <div>
+    <div id='about'>
         <div class="py-24">
             <div class="w-[90%] m-auto flex justify-between px-[75px]">
                 <div class="basis-2/5">

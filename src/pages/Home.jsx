@@ -8,7 +8,7 @@ import HomeSwiperSection from '../components/HomeSwiperSection'
 
 function Home() {
   return (
-    <div>
+    <div id='ho'>
         <div>
             <HomeHeroSection/>
             <HomeSecondSection/>
