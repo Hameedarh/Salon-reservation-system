@@ -15,17 +15,13 @@ function HomeSwiper() {
     useEffect(() => {
         //set the view
         if (window.innerWidth <= 600) {
-          setView(2);
+          setView(1);
+          setSpace(20)
         } else if (window.innerWidth <= 900) {
           setView(3);
-        }
-    
-        //set the space
-        if (window.innerWidth < 480) {
-          setSpace(20);
-        } else if (window.innerWidth <= 900) {
           setSpace(35);
         }
+    
       }, [space, view]);
 
   return (

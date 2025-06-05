@@ -9,7 +9,7 @@ function HomeHeroSection() {
         <div class="w-full">
           <div  class=" flex flex-col md:flex-row justify-between flex-1">
             {/* first flex */}
-            <div class="flex flex-col justify-center items-center md:items-start text-center md:text-left w-full md:w-3/5 pl-0 md:pl-[75px] mt-8 md:mt-0">
+            <div class="flex flex-col justify-center items-center mt-20 md:items-start text-center md:text-left w-full md:w-3/5 pl-0 md:pl-[75px] mt-8 md:mt-0">
               <div>
                 <h1 class=" pt-20 md:text-[#1d2434] text-3xl md:text-4xl font-bold pb-4">
                   Welcome to Jiggy Salon
