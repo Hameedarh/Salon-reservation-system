@@ -30,7 +30,7 @@ function Navbar() {
 
   return (
     <div className={`h-[70px] w-full text-white animate-pulse ${scrolled ? 'bg-black fixed top-0 left-0 z-20' : 'bg-[#ffffff1a] absolute'} transition duration-300`}>
-      <div className="w-[90%] m-auto py-5 px-[75px]">
+      <div className="md:w-[90%] m-auto py-5 px-[75px]">
         <div className="flex justify-between items-center">
           {/* first flex - Logo */}
           <Link to='/'>
