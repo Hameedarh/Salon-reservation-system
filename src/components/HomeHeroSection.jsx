@@ -15,7 +15,7 @@ function HomeHeroSection() {
                   Welcome to Jiggy Salon
                 </h1>
                 <p class="text-xl md:w-4/6 w-full leading-normal">
-                    Lorem ipsum dolor sit amet elit. Phasell nec pretum mi. Curabi ornare velit non. Aliqua metus tortor auctor quis sem.
+                    Experience top-notch grooming, style, and confidence. Book your appointment today and redefine your look.
                 </p>
                 <Link to='/contact'>
                   <div class="mt-10">

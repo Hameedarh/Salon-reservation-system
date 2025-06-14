@@ -59,8 +59,8 @@ function HomeSwiper() {
                                 </div>
                                 <div class='text-center'>
                                     <div>
-                                        <p class='pt-5 font-semibold text-xl'>Hair Cut</p>
-                                        <p class='py-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, recusandae.</p>
+                                        <p class='pt-5 font-semibold text-xl'>{slide.service}</p>
+                                        <p class='py-5'>{slide.details}</p>
                                         <button class="px-[30px] py-[15px] border-2 border-solid border-[#1d2434] bg-[none] hover:bg-[#1d2434] hover:text-[#D5B981] ">
                                             Learn more
                                         </button>

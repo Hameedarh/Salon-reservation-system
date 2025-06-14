@@ -11,9 +11,9 @@ export const pictures = [
       title: "service-pictures",
       subject: "Lorem ipsum dolor",
       thumbnail: pic,
-      service: "haircut",
+      service: "Haircut",
       date: "01-Jan-2025",
-      details: ""
+      details: "Sharp fades, classic trims, and trendy styles tailored to you"
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ export const pictures = [
       thumbnail: pic2,
       service: "Beard Style",
       date: "01-Jan-2025",
-      details: ""
+      details: "Precision grooming and styling for the modern man"
     },
     {
       id: 3,
@@ -31,16 +31,16 @@ export const pictures = [
       thumbnail: pic3,
       service: "Color & Wash",
       date: "01-Jan-2025",
-      details: ""
+      details: " Add personality and vibrancy with our expert color treatments"
     },
     {
       id: 4,
       title: "service-pictures",
       subject: "Lorem ipsum dolor",
       thumbnail: pic4,
-      service: "haircut",
+      service: "Haircut",
       date: "01-Jan-2025",
-      details: ""
+      details: "Sharp fades, classic trims, and trendy styles tailored to you"
     },
     {
       id: 5,
@@ -49,7 +49,7 @@ export const pictures = [
       thumbnail: pic5,
       service: "Beard Style",
       date: "01-Jan-2025",
-      details: ""
+      details: "Precision grooming and styling for the modern man"
     },
     {
       id: 6,
@@ -58,7 +58,7 @@ export const pictures = [
       thumbnail: pic6,
       service: "Color & Wash",
       date: "01-Jan-2025",
-      details: ""
+      details: " Add personality and vibrancy with our expert color treatments"
     }
     
   ];

@@ -28,13 +28,10 @@ function HomeSecondSection() {
                 <h2 class="font-bold text-3xl md:text-5xl pt-2 md:pt-3">3+ Years Experience</h2>
                 <div class='pt-4 md:pt-8 text-[#797979] text-sm md:text-base'>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur est sequi necessitatibus
-                    recusandae maiores, similique deserunt quos magni qui ut mollitia nam reprehenderit labore voluptates,
-                    fugiat beatae id error quam.
+                    At Jiggy Salon, we combine modern trends with timeless grooming techniques to deliver the perfect look for every client. 
                   </p>
                   <p class='pt-3 md:pt-5'>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. A molestiae officiis quasi aliquid et! Esse
-                    corporis sit eaque vitae possimus autem accusantium? Facere quaerat eveniet odit aliquid beatae corporis fuga.
+                   Whether it’s a classic haircut, a bold new style, or a relaxing grooming session, we’re here to serve you.
                   </p>
                 </div>
                 <div class='pt-6 md:pt-8'>

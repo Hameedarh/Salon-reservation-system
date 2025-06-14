@@ -26,7 +26,7 @@ function HomeThirdSection() {
                 <div class='w-[95%] sm:w-[280px] h-[240px] md:w-[320px] md:h-[233px] bg-transparent absolute top-3 left-3 border border-[#ffffff] z-10'></div>
                 <div class='text-center px-4'>
                   <p class='pt-5 font-semibold text-lg md:text-xl'>Hair Cut</p>
-                  <p class='py-5 text-sm md:text-base'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, recusandae.</p>
+                  <p class='py-5 text-sm md:text-base'>Sharp fades, classic trims, and trendy styles tailored to you</p>
                   <button class="text-sm md:text-base px-6 py-3 border-2 border-[#1d2434] hover:bg-[#1d2434] hover:text-[#D5B981] transition-all">
                     Learn more
                   </button>
@@ -41,7 +41,7 @@ function HomeThirdSection() {
                 <div class='w-[95%] sm:w-[280px] h-[240px] md:w-[320px] md:h-[233px] bg-transparent absolute top-3 left-3 border border-[#ffffff] z-10'></div>
                 <div class='text-center px-4'>
                   <p class='pt-5 font-semibold text-lg md:text-xl'>Beard Style</p>
-                  <p class='py-5 text-sm md:text-base'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, recusandae.</p>
+                  <p class='py-5 text-sm md:text-base'>Precision grooming and styling for the modern man.</p>
                   <button class="text-sm md:text-base px-6 py-3 border-2 border-[#1d2434] hover:bg-[#1d2434] hover:text-[#D5B981] transition-all">
                     Learn more
                   </button>
@@ -56,7 +56,7 @@ function HomeThirdSection() {
                 <div class='w-[95%] sm:w-[280px] h-[240px] md:w-[320px] md:h-[233px] bg-transparent absolute top-3 left-3 border border-[#ffffff] z-10'></div>
                 <div class='text-center px-4'>
                   <p class='pt-5 font-semibold text-lg md:text-xl'>Color & Wash</p>
-                  <p class='py-5 text-sm md:text-base'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, recusandae.</p>
+                  <p class='py-5 text-sm md:text-base'> Add personality and vibrancy with our expert color treatments.</p>
                   <button class="text-sm md:text-base px-6 py-3 border-2 border-[#1d2434] hover:bg-[#1d2434] hover:text-[#D5B981] transition-all">
                     Learn more
                   </button>
