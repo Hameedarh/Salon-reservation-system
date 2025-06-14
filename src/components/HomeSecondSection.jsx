@@ -1,5 +1,6 @@
 import React from 'react'
 import about from '../assets/img/about.jpg'
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function HomeSecondSection() {
   return (
@@ -35,9 +36,11 @@ function HomeSecondSection() {
                   </p>
                 </div>
                 <div class='pt-6 md:pt-8'>
-                  <button class="px-6 py-3 text-sm md:text-base border-2 border-solid border-[#1d2434] bg-none hover:bg-[#1d2434] hover:text-[#D5B981] transition-all duration-300">
-                    Learn more
-                  </button>
+                  <AnchorLink href="#services">
+                    <button class="px-6 py-3 text-sm md:text-base border-2 border-solid border-[#1d2434] bg-none hover:bg-[#1d2434] hover:text-[#D5B981] transition-all duration-300">
+                      Learn more
+                    </button>
+                  </AnchorLink>
                 </div>
               </div>
             </div>

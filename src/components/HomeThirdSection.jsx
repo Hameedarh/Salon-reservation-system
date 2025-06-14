@@ -2,6 +2,7 @@ import React from 'react'
 import service1 from '../assets/img/service-1.jpg'
 import service2 from '../assets/img/service-2.jpg'
 import service3 from '../assets/img/service-3.jpg'
+import { Link } from "react-router-dom";
 
 function HomeThirdSection() {
   return (
@@ -27,9 +28,11 @@ function HomeThirdSection() {
                 <div class='text-center px-4'>
                   <p class='pt-5 font-semibold text-lg md:text-xl'>Hair Cut</p>
                   <p class='py-5 text-sm md:text-base'>Sharp fades, classic trims, and trendy styles tailored to you</p>
-                  <button class="text-sm md:text-base px-6 py-3 border-2 border-[#1d2434] hover:bg-[#1d2434] hover:text-[#D5B981] transition-all">
-                    Learn more
-                  </button>
+                   <Link to='/contact'>
+                    <button class="text-sm md:text-base px-6 py-3 border-2 border-[#1d2434] hover:bg-[#1d2434] hover:text-[#D5B981] transition-all">
+                      Book now
+                    </button>  
+                   </Link>
                 </div>
               </div>
             </div>
@@ -42,9 +45,11 @@ function HomeThirdSection() {
                 <div class='text-center px-4'>
                   <p class='pt-5 font-semibold text-lg md:text-xl'>Beard Style</p>
                   <p class='py-5 text-sm md:text-base'>Precision grooming and styling for the modern man.</p>
-                  <button class="text-sm md:text-base px-6 py-3 border-2 border-[#1d2434] hover:bg-[#1d2434] hover:text-[#D5B981] transition-all">
-                    Learn more
-                  </button>
+                   <Link to='/contact'>
+                    <button class="text-sm md:text-base px-6 py-3 border-2 border-[#1d2434] hover:bg-[#1d2434] hover:text-[#D5B981] transition-all">
+                      Book now
+                    </button>
+                   </Link>
                 </div>
               </div>
             </div>
@@ -57,9 +62,11 @@ function HomeThirdSection() {
                 <div class='text-center px-4'>
                   <p class='pt-5 font-semibold text-lg md:text-xl'>Color & Wash</p>
                   <p class='py-5 text-sm md:text-base'> Add personality and vibrancy with our expert color treatments.</p>
-                  <button class="text-sm md:text-base px-6 py-3 border-2 border-[#1d2434] hover:bg-[#1d2434] hover:text-[#D5B981] transition-all">
-                    Learn more
-                  </button>
+                   <Link to='/contact'>
+                    <button class="text-sm md:text-base px-6 py-3 border-2 border-[#1d2434] hover:bg-[#1d2434] hover:text-[#D5B981] transition-all">
+                      Book now
+                    </button>
+                   </Link>
                 </div>
               </div>
             </div>
