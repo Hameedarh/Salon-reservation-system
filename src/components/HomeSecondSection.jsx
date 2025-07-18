@@ -11,12 +11,12 @@ function HomeSecondSection() {
           {/* Image Section */}
           <div class="basis-full md:basis-2/5 flex justify-center md:justify-start">
             <div class='relative'>
-              <div class="w-[280px] h-[340px] md:w-[385px] md:h-[466px] bg-[#1d2434]"></div>
-              <div class="w-[280px] h-[340px] md:w-[385px] md:h-[466px] bg-transparent absolute top-6 left-6 md:top-9 md:left-9 border border-[#ffffff] z-10"></div>
+              <div class="w-[280px] h-[340px] md:w-[380px] md:h-[466px] bg-[#1d2434]"></div>
+              <div class="w-[280px] h-[340px] md:w-[380px] md:h-[466px] bg-transparent absolute top-6 left-6 md:top-9 md:left-9 border border-[#ffffff] z-10"></div>
               <img
                 src={about}
                 alt='about-pic'
-                class="w-[280px] h-[340px] md:w-[385px] md:h-[466px] absolute top-12 left-12 md:top-16 md:left-16 object-cover"
+                class="w-[280px] h-[340px] md:w-[380px] md:h-[466px] absolute top-12 left-12 md:top-16 md:left-16 object-cover"
               />
             </div>
           </div>
