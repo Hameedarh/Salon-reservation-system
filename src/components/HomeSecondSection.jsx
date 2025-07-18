@@ -1,5 +1,5 @@
 import React from 'react'
-import about from '../assets/img/about.jpg'
+import about from '../assets/img/w6.jpg'
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function HomeSecondSection() {
