@@ -1,9 +1,9 @@
-import pic from '../assets/img/ww1.png'
-import pic2 from '../assets/img/ww2.png'
-import pic3 from '../assets/img/ww3.png'
-import pic4 from '../assets/img/ww1.png'
-import pic5 from '../assets/img/ww2.png'
-import pic6 from '../assets/img/ww3.png'
+import pic from '../assets/img/w2.jpg'
+import pic2 from '../assets/img/w3.jpg'
+import pic3 from '../assets/img/w4.jpg'
+import pic4 from '../assets/img/w5.jpg'
+import pic5 from '../assets/img/w1.jpg'
+import pic6 from '../assets/img/w4.jpg'
 
 export const pictures = [
     {

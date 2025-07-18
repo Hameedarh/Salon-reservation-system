@@ -1,5 +1,5 @@
 import React from 'react'
-import contact from '../assets/img/ww2.png'
+import contact from '../assets/img/w1.jpg'
 import { useForm, ValidationError } from '@formspree/react';
 
 function ContactForm() {

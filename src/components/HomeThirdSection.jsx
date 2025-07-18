@@ -1,7 +1,7 @@
 import React from 'react'
-import service1 from '../assets/img/ww2.png'
-import service2 from '../assets/img/ww1.png'
-import service3 from '../assets/img/ww3.png'
+import service1 from '../assets/img/w5.jpg'
+import service2 from '../assets/img/w2.jpg'
+import service3 from '../assets/img/w4.jpg'
 import { Link } from "react-router-dom";
 
 function HomeThirdSection() {
